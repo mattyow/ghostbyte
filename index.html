@@ -22,7 +22,7 @@
   --panel:#0C1116;
   --phosphor:#E4EFEC;
   --dim:#7C9391;
-  --deep:#3D4F4E;
+  --deep:#607D7B;
   --cyan:#58DCE4;
   --magenta:#E0559F;
   --rule:rgba(88,220,228,.16);
@@ -68,6 +68,19 @@ textarea:focus-visible,[tabindex]:focus-visible{
 
 .wrap{max-width:1180px;margin:0 auto;padding:0 var(--pad)}
 
+/* visible only on keyboard focus */
+.skip{
+  position:absolute;left:-9999px;top:0;z-index:100;
+  background:var(--cyan);color:var(--void);
+  padding:10px 18px;font-size:14px;letter-spacing:.06em;text-transform:uppercase;
+}
+.skip:focus{left:0}
+
+.vis-hidden{
+  position:absolute;width:1px;height:1px;overflow:hidden;
+  clip-path:inset(50%);white-space:nowrap;
+}
+
 /* ── Meta bar ───────────────────────────────────────────────────── */
 .bar{
   position:sticky;top:0;z-index:80;
@@ -105,6 +118,7 @@ textarea:focus-visible,[tabindex]:focus-visible{
 /* the signature: phosphor persistence */
 .mark{
   position:relative;
+  overflow-x:clip;
   font-size:clamp(58px,15.5vw,206px);
   line-height:.92;
   letter-spacing:-.01em;
@@ -114,7 +128,7 @@ textarea:focus-visible,[tabindex]:focus-visible{
   text-shadow:0 0 26px rgba(228,239,236,.22),0 0 70px rgba(88,220,228,.1);}
 .mark-ghost{
   position:absolute;top:0;left:0;z-index:1;
-  display:block;white-space:nowrap;
+  display:block;width:100%;
   pointer-events:none;user-select:none;
 }
 .mark-ghost.g1{color:var(--cyan);animation:drift1 6.5s ease-in-out infinite}
@@ -157,7 +171,7 @@ textarea:focus-visible,[tabindex]:focus-visible{
   margin-bottom:clamp(26px,4vh,44px);
 }
 .sect-label{font-size:13px;letter-spacing:.2em;text-transform:uppercase}
-.sect-label::before{content:"→";color:var(--cyan)}
+.sect-label::before{content:"→" / "";color:var(--cyan)}
 .sect-note{color:var(--dim);font-size:14px;font-feature-settings:"tnum"}
 
 /* ── Waterfall ──────────────────────────────────────────────────── */
@@ -265,6 +279,9 @@ input[type=range]::-moz-range-thumb{width:11px;height:14px;background:var(--cyan
 .cgrid{
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(56px,1fr));
+  /* cells are 1px wider than their column (negative-margin border collapse),
+     so inset the grid by 1px to absorb the bleed */
+  margin-right:1px;margin-bottom:1px;
 }
 .cell{
   background:transparent;aspect-ratio:1;
@@ -278,19 +295,21 @@ input[type=range]::-moz-range-thumb{width:11px;height:14px;background:var(--cyan
 
 /* ── Files & license ────────────────────────────────────────────── */
 .cols{display:grid;gap:var(--gap);grid-template-columns:1fr}
+.cols > *{min-width:0}
 @media(min-width:860px){.cols{grid-template-columns:1fr 1fr}}
 
-.files{display:flex;flex-direction:column;border:1px solid var(--rule)}
+.files{display:flex;flex-direction:column;border:1px solid var(--rule);min-width:0}
 .file{
   display:flex;align-items:center;gap:14px;
   padding:15px clamp(16px,2vw,22px);
   border-bottom:1px solid var(--rule);
   transition:background .16s;
+  flex-wrap:wrap;
 }
 .file:last-child{border-bottom:0}
 .file:hover{background:var(--panel)}
-.file-name{font-size:16px}
-.file-size{color:var(--dim);font-size:13px;font-feature-settings:"tnum";margin-left:auto}
+.file-name{font-size:16px;min-width:0;overflow-wrap:anywhere}
+.file-size{color:var(--dim);font-size:13px;font-feature-settings:"tnum";margin-left:auto;white-space:nowrap}
 .file-arrow{color:var(--cyan)}
 .file.primary{background:var(--panel)}
 .file.primary .file-name{color:var(--cyan)}
@@ -335,6 +354,7 @@ footer{
   .bar-meta{display:none}
   .bar-mark{font-size:13px}
   .fall .px{display:none}
+  .fall > div{white-space:normal}
   .readout-glyph{font-size:38px}
 }
 
@@ -351,6 +371,7 @@ footer{
 </head>
 <body>
 
+<a class="skip" href="#main">Skip to content</a>
 <div class="crt" aria-hidden="true"></div>
 
 <header class="bar">
@@ -363,9 +384,9 @@ footer{
   </div>
 </header>
 
-<main>
+<main id="main" tabindex="-1">
 <section class="hero wrap">
-  <p class="eyebrow">Intraps and bitmaps</b></p>
+  <p class="eyebrow">Ink traps and bitmaps</p>
 
   <h1 class="mark" aria-label="Ghost Byte">
     <span class="mark-ghost g1" aria-hidden="true">Ghost Byte</span>
@@ -375,7 +396,7 @@ footer{
   </h1>
 
   <p class="lede">
-    A proportional pixel construction typeface without the rigid monospace grid. Intraps prevent congestion at smaller sizes and flavor at larger sizes. All combine to make something novel. <br> “Mixture is how newness enters the world.” <br>— Salman Rushdie
+    A proportional pixel construction typeface without the rigid monospace grid. Ink traps prevent congestion at smaller sizes and flavor at larger sizes. All combine to make something novel. Mixture is how newness enters the world.
   </p>
 
   <div class="cta-row">
@@ -439,11 +460,12 @@ footer{
     <p class="sect-note">382 mapped characters / 601 glyphs including alternates</p>
   </div>
 
-  <div class="readout" id="readout">
+  <div class="readout" id="readout" aria-live="polite">
     <div class="readout-glyph" id="ro-glyph">A</div>
     <div class="readout-txt">
       <span class="readout-cp" id="ro-cp">U+0041</span>
       <span id="ro-name">LATIN CAPITAL LETTER A</span>
+      <span class="vis-hidden" id="ro-status" role="status"></span>
     </div>
   </div>
 
@@ -533,14 +555,53 @@ let activeCell = null;
 
 const hex = cp => 'U+' + cp.toString(16).toUpperCase().padStart(4,'0');
 
+const roStatus = document.getElementById('ro-status');
+
 function show(cp, name, cell){
   const ch = String.fromCodePoint(cp);
   // combining marks need a base to sit on
   roGlyph.textContent = (name.startsWith('COMBINING') ? 'o' : '') + ch;
   roCp.textContent = hex(cp);
   roName.textContent = name;
+  if (roStatus) roStatus.textContent = '';
   if (activeCell) activeCell.classList.remove('on');
   if (cell){ cell.classList.add('on'); activeCell = cell; }
+}
+
+// How many columns the responsive grid currently has.
+function colCount(grid){
+  return getComputedStyle(grid).gridTemplateColumns.split(' ').filter(Boolean).length;
+}
+
+// Only one cell per grid is tabbable; arrow keys move focus between them.
+function moveFocus(grid, from, delta){
+  const cells = [...grid.querySelectorAll('.cell')];
+  const i = cells.indexOf(from);
+  const next = cells[Math.min(cells.length - 1, Math.max(0, i + delta))];
+  if (!next || next === from) return;
+  from.tabIndex = -1;
+  next.tabIndex = 0;
+  next.focus();
+}
+
+function onGridKey(e){
+  const grid = e.currentTarget;
+  const cell = e.target.closest('.cell');
+  if (!cell) return;
+  const cols = colCount(grid);
+  const cells = [...grid.querySelectorAll('.cell')];
+  let delta = null;
+  switch (e.key){
+    case 'ArrowRight': delta = 1; break;
+    case 'ArrowLeft':  delta = -1; break;
+    case 'ArrowDown':  delta = cols; break;
+    case 'ArrowUp':    delta = -cols; break;
+    case 'Home':       delta = -cells.indexOf(cell); break;
+    case 'End':        delta = cells.length - 1 - cells.indexOf(cell); break;
+    default: return;
+  }
+  e.preventDefault();
+  moveFocus(grid, cell, delta);
 }
 
 CHARSETS.forEach(group => {
@@ -552,17 +613,26 @@ CHARSETS.forEach(group => {
   const grid = document.createElement('div');
   grid.className = 'cgrid';
 
-  group.chars.forEach(([cp, name]) => {
+  grid.setAttribute('role', 'group');
+  grid.setAttribute('aria-label', group.name + ', ' + group.chars.length + ' characters. Use arrow keys to browse.');
+  grid.addEventListener('keydown', onGridKey);
+
+  group.chars.forEach(([cp, name], idx) => {
     const b = document.createElement('button');
     b.className = 'cell';
     b.type = 'button';
     b.title = hex(cp) + '  ' + name;
     b.textContent = (name.startsWith('COMBINING') ? 'o' : '') + String.fromCodePoint(cp);
+    // Whitespace characters render as nothing, so the visible text can't serve
+    // as the accessible name. Name every cell explicitly instead.
+    b.setAttribute('aria-label', hex(cp) + ' ' + name);
+    b.tabIndex = idx === 0 ? 0 : -1;   // one tab stop per group
     b.addEventListener('mouseenter', () => show(cp, name, b));
     b.addEventListener('focus',      () => show(cp, name, b));
     b.addEventListener('click',      () => {
       show(cp, name, b);
       navigator.clipboard?.writeText(String.fromCodePoint(cp));
+      if (roStatus) roStatus.textContent = 'Copied ' + name + ' to the clipboard';
     });
     grid.appendChild(b);
   });
