@@ -1,0 +1,29 @@
+# Font binaries: never convert line endings, don't attempt to diff.
+*.otf   binary
+*.ttf   binary
+*.woff  binary
+*.woff2 binary
+*.zip   binary
+*.png   binary
+*.pdf   binary
+
+# Glyphs / UFO sources are text. Force LF so history stays clean across
+# machines, and let git diff them normally.
+*.glyphs        text eol=lf
+*.glyph         text eol=lf
+*.plist         text eol=lf
+*.designspace   text eol=lf
+*.fea           text eol=lf
+
+# Treat .glyphspackage and .ufo as ordinary directories, not macOS bundles,
+# so git tracks the files inside them individually.
+*.glyphspackage/** text eol=lf
+*.ufo/**           text eol=lf
+
+# Web + build files
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf

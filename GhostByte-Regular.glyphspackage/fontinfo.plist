@@ -2817,6 +2817,8 @@ name = "zone 1";
 name = "zone 2";
 }
 );
+note = "Copyright 2026 Matt Yow, with Reserved Font Name \"Ghost Byte”.
+Many thanks to Matthew Smith for his help on this font.";
 properties = (
 {
 key = postscriptFontName;

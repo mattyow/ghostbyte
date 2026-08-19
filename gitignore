@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Glyphs autosaves and backups — these will clutter history fast
+*.glyphs~
+*.glyphspackage~
+Backups/
+*.sBackup
+
+# Font editor / build scratch
+*.tmp
+instance_ufo/
+master_ufo/
+variable_ttf/
+.fontbakery/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
