@@ -73,7 +73,7 @@ textarea:focus-visible,[tabindex]:focus-visible{
   outline:2px solid var(--cyan);outline-offset:3px;
 }
 
-.wrap{max-width:1180px;margin:0 auto;padding:0 var(--pad)}
+.wrap{max-width:calc(1180px + var(--pad) * 2);margin:0 auto;padding:0 var(--pad)}
 
 /* visible only on keyboard focus */
 .skip{
@@ -115,7 +115,7 @@ textarea:focus-visible,[tabindex]:focus-visible{
 .bar-get:hover{background:var(--cyan);color:var(--void)}
 
 /* ── Hero ───────────────────────────────────────────────────────── */
-.hero{padding:clamp(56px,11vh,132px) 0 var(--gap)}
+.hero{padding-block:clamp(56px,11vh,132px) var(--gap)}
 .eyebrow{
   color:var(--dim);font-size:13px;letter-spacing:.22em;
   text-transform:uppercase;margin-bottom:clamp(20px,4vh,38px);
@@ -172,7 +172,7 @@ textarea:focus-visible,[tabindex]:focus-visible{
 .btn-alt:hover{background:transparent;border-color:var(--cyan);color:var(--cyan)}
 
 /* ── Section scaffolding ────────────────────────────────────────── */
-.sect{padding:var(--gap) 0;border-top:1px solid var(--rule)}
+.sect{padding-block:var(--gap);border-top:1px solid var(--rule)}
 .sect-head{
   display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
   margin-bottom:clamp(26px,4vh,44px);
@@ -384,7 +384,7 @@ footer{
 <header class="bar">
   <div class="bar-in">
     <span class="bar-mark">Ghost Byte</span>
-    <a class="bar-get" href="#files">Download</a>
+    <a class="bar-get" href="https://github.com/mattyow/ghostbyte/releases/latest/download/GhostByte.zip">Download</a>
     <span class="bar-meta">
       <span>382 characters</span><span class="sep">/</span><span>601 glyphs</span><span class="sep">/</span><span>OFL 1.1</span>
     </span>
