@@ -40,16 +40,8 @@ font's name table is missing its copyright (nameID 0) or license (13/14).
 
 1. Bump the version in the Glyphs file and in `VERSION` in `build.py`.
 2. Export the OTF, run the build, commit.
-3. Tag it: `git tag v1.001 && git push --tags`
+3. Tag: `git tag v1.001 && git push --tags`
 4. Cut a GitHub Release from the tag and attach the zip, so the download URL
    stays stable for anyone linking to it.
 
 Pushing to `main` auto-deploys the site to Netlify.
-
-## Before first release
-
-- [ ] Set copyright in the font's name table: `Copyright 2026 [name], with Reserved Font Name "Ghost Byte"`
-- [ ] Set license (nameID 13) and license URL (14) to the OFL
-- [ ] Replace the `[YOUR NAME]` / `[your@email.com]` placeholders in `OFL.txt`
-- [ ] Consider setting `fsType` to 0 (installable), the convention for OFL fonts
-- [ ] Test all download links on the deployed site
