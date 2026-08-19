@@ -1,0 +1,29 @@
+{
+glyphname = thorn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (322,0);
+},
+{
+name = bottom_;
+pos = (322,0);
+},
+{
+name = top;
+pos = (322,600);
+},
+{
+name = top_;
+pos = (322,600);
+}
+);
+layerId = m01;
+width = 643;
+}
+);
+note = thorn;
+unicode = 254;
+}

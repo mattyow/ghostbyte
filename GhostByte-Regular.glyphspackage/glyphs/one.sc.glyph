@@ -1,0 +1,50 @@
+{
+glyphname = one.sc;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,200);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,0,l),
+(250,0,l),
+(250,600,l),
+(50,600,l),
+(50,500,l),
+(100,500,o),
+(124,512,o),
+(162,550,c),
+(200,512,l),
+(160,472,o),
+(150,450,o),
+(150,400,cs)
+);
+}
+);
+width = 350;
+}
+);
+note = one.sc;
+}

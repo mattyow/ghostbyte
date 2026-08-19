@@ -1,0 +1,73 @@
+{
+glyphname = c.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = bottom_;
+pos = (288,0);
+},
+{
+name = top;
+pos = (325,600);
+},
+{
+name = top_;
+pos = (325,600);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (75,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,500,l),
+(75,100,l),
+(175,100,l),
+(175,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,100,l),
+(175,0,l),
+(525,0,l),
+(525,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,600,l),
+(175,500,l),
+(525,500,l),
+(525,600,l)
+);
+}
+);
+width = 575;
+}
+);
+note = c.sc;
+}

@@ -1,0 +1,187 @@
+{
+glyphname = wdieresis.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (500,0);
+},
+{
+name = bottom_;
+pos = (500,0);
+},
+{
+name = top;
+pos = (500,800);
+},
+{
+name = top_;
+pos = (500,800);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (700,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (350,250);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (150,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,150);
+type = Stem;
+},
+{
+place = (850,100);
+type = Stem;
+},
+{
+place = (750,100);
+type = Stem;
+},
+{
+place = (650,100);
+type = Stem;
+},
+{
+place = (550,100);
+type = Stem;
+},
+{
+place = (450,100);
+type = Stem;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(850,150,l),
+(850,350,l),
+(750,350,l),
+(750,150,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(50,600,l),
+(50,350,l),
+(150,350,l),
+(150,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,350,l),
+(150,150,l),
+(250,150,l),
+(250,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,150,l),
+(250,0,l),
+(350,0,l),
+(350,150,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,350,l),
+(350,150,l),
+(450,150,l),
+(450,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,800,l),
+(350,700,l),
+(450,700,l),
+(450,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,600,l),
+(450,350,l),
+(550,350,l),
+(550,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(550,350,l),
+(550,150,l),
+(650,150,l),
+(650,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(550,800,l),
+(550,700,l),
+(650,700,l),
+(650,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(650,150,l),
+(650,0,l),
+(750,0,l),
+(750,150,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(850,600,l),
+(850,350,l),
+(950,350,l),
+(950,600,l)
+);
+}
+);
+width = 1000;
+}
+);
+note = wdieresis.sc;
+}

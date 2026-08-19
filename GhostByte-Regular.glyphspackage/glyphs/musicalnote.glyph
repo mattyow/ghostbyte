@@ -1,0 +1,64 @@
+{
+glyphname = musicalnote;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (550,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,200);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,200);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,400,ls),
+(150,350,o),
+(160,328,o),
+(200,288,c),
+(162,250,l),
+(122,290,o),
+(100,300,o),
+(50,300,c),
+(50,100,l),
+(250,100,l),
+(250,400,ls),
+(250,450,o),
+(240,472,o),
+(200,512,c),
+(238,550,l),
+(278,510,o),
+(300,500,o),
+(350,500,cs),
+(450,500,l),
+(450,700,l),
+(150,700,l)
+);
+}
+);
+width = 500;
+}
+);
+note = musicalnote;
+unicode = 9834;
+}

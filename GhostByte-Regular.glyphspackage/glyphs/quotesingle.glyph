@@ -1,0 +1,34 @@
+{
+glyphname = quotesingle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (800,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,800,l),
+(50,500,l),
+(150,500,l),
+(150,800,l)
+);
+}
+);
+width = 200;
+}
+);
+note = quotesingle;
+unicode = 39;
+}

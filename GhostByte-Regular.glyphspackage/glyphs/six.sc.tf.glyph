@@ -1,0 +1,88 @@
+{
+glyphname = six.sc.tf;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (475,100);
+type = Stem;
+},
+{
+place = (75,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,500,l),
+(75,100,l),
+(175,100,l),
+(175,300,l),
+(475,300,l),
+(475,400,l),
+(275,400,ls),
+(225,400,o),
+(203,390,o),
+(163,350,c),
+(125,388,l),
+(165,428,o),
+(175,450,o),
+(175,500,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,500,l),
+(525,500,l),
+(525,600,l),
+(175,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,100,l),
+(175,0,l),
+(475,0,l),
+(475,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(475,300,l),
+(475,100,l),
+(575,100,l),
+(575,300,l)
+);
+}
+);
+width = 650;
+}
+);
+note = six.sc.tf;
+}

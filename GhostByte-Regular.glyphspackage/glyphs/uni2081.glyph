@@ -1,0 +1,45 @@
+{
+glyphname = uni2081;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,200);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,-100,l),
+(250,-100,l),
+(250,400,l),
+(50,400,l),
+(50,300,l),
+(100,300,o),
+(122,310,o),
+(162,350,c),
+(200,312,l),
+(160,272,o),
+(150,250,o),
+(150,200,cs)
+);
+}
+);
+width = 350;
+}
+);
+note = uni2081;
+unicode = 8321;
+}

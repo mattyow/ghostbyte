@@ -1,0 +1,57 @@
+{
+glyphname = uni0328;
+layers = (
+{
+anchors = (
+{
+name = _ogonek;
+pos = (300,0);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-200,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-300,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,-200,l),
+(200,-200,l),
+(200,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,-200,l),
+(200,-300,l),
+(300,-300,l),
+(300,-200,l)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0328;
+unicode = 808;
+}

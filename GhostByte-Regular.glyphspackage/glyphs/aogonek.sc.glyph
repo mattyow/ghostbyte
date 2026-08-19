@@ -1,0 +1,201 @@
+{
+glyphname = aogonek.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (350,0);
+},
+{
+name = bottom_;
+pos = (350,0);
+},
+{
+name = ogonek;
+pos = (600,0);
+},
+{
+name = ogonek_;
+pos = (600,0);
+},
+{
+name = top;
+pos = (350,600);
+},
+{
+name = top_;
+pos = (350,600);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (350,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (125,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,175);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,137);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-200,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (500,100);
+type = Stem;
+},
+{
+place = (400,100);
+type = Stem;
+},
+{
+place = (300,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,350,l),
+(100,350,l),
+(100,0,l),
+(200,0,l),
+(200,25,ls),
+(200,75,o),
+(190,97,o),
+(150,137,c),
+(188,175,l),
+(150,213,l),
+(190,253,o),
+(200,275,o),
+(200,325,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(228,135,o),
+(250,125,o),
+(300,125,cs),
+(400,125,ls),
+(450,125,o),
+(472,135,o),
+(512,175,c),
+(472,215,o),
+(450,225,o),
+(400,225,cs),
+(300,225,ls),
+(250,225,o),
+(228,215,o),
+(188,175,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,500,l),
+(200,350,l),
+(300,350,l),
+(300,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,600,l),
+(300,500,l),
+(400,500,l),
+(400,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,0,l),
+(400,-200,l),
+(500,-200,l),
+(500,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,500,l),
+(400,350,l),
+(500,350,l),
+(500,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,-200,l),
+(500,-300,l),
+(600,-300,l),
+(600,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,0,l),
+(600,0,l),
+(600,350,l),
+(500,350,l),
+(500,325,ls),
+(500,275,o),
+(510,253,o),
+(550,213,c),
+(512,175,l),
+(550,137,l),
+(512,99,o),
+(500,75,o),
+(500,25,cs)
+);
+}
+);
+width = 700;
+}
+);
+note = aogonek.sc;
+}

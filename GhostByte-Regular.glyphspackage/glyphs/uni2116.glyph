@@ -1,0 +1,190 @@
+{
+glyphname = uni2116;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (350,0);
+},
+{
+name = bottom_;
+pos = (350,0);
+},
+{
+name = top;
+pos = (350,700);
+},
+{
+name = top_;
+pos = (350,700);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (450,125);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (175,125);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (1050,100);
+type = Stem;
+},
+{
+place = (850,200);
+type = Stem;
+},
+{
+place = (750,100);
+type = Stem;
+},
+{
+place = (500,100);
+type = Stem;
+},
+{
+place = (300,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,175,l),
+(500,0,l),
+(600,0,l),
+(600,700,l),
+(500,700,l),
+(500,400,ls),
+(500,350,o),
+(510,328,o),
+(550,288,c),
+(512,250,l),
+(472,290,o),
+(450,300,o),
+(400,300,c),
+(400,175,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,700,l),
+(100,0,l),
+(200,0,l),
+(200,350,ls),
+(200,400,o),
+(190,422,o),
+(150,462,c),
+(188,500,l),
+(228,460,o),
+(250,450,o),
+(300,450,c),
+(300,575,l),
+(200,575,l),
+(200,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,450,l),
+(300,300,l),
+(400,300,l),
+(400,450,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(750,200,l),
+(750,100,l),
+(1150,100,l),
+(1150,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(750,600,l),
+(750,400,l),
+(850,400,l),
+(850,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(850,400,l),
+(850,300,l),
+(1050,300,l),
+(1050,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(850,700,l),
+(850,600,l),
+(1050,600,l),
+(1050,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1050,600,l),
+(1050,400,l),
+(1150,400,l),
+(1150,600,l)
+);
+}
+);
+width = 1200;
+}
+);
+note = uni2116;
+unicode = 8470;
+}

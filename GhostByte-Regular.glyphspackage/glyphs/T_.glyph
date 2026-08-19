@@ -1,0 +1,61 @@
+{
+glyphname = T;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = bottom_;
+pos = (250,0);
+},
+{
+name = top;
+pos = (300,700);
+},
+{
+name = top_;
+pos = (300,700);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (250,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,600,l),
+(250,0,l),
+(350,0,l),
+(350,600,l),
+(575,600,l),
+(575,700,l),
+(25,700,l),
+(25,600,l)
+);
+}
+);
+width = 600;
+}
+);
+note = T;
+unicode = 84;
+}

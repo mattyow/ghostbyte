@@ -1,0 +1,42 @@
+{
+glyphname = exclamdown;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,400,l),
+(100,400,l),
+(100,-100,l),
+(200,-100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,600,l),
+(100,500,l),
+(200,500,l),
+(200,600,l)
+);
+}
+);
+width = 300;
+}
+);
+note = exclamdown;
+unicode = 161;
+}

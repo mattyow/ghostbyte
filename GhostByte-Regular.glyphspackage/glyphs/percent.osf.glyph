@@ -1,0 +1,204 @@
+{
+glyphname = percent.osf;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (350,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (250,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (600,100);
+type = Stem;
+},
+{
+place = (500,100);
+type = Stem;
+},
+{
+place = (400,100);
+type = Stem;
+},
+{
+place = (300,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+},
+{
+place = (0,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,100,l),
+(100,0,l),
+(200,0,l),
+(200,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,500,l),
+(0,400,l),
+(100,400,l),
+(100,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,400,l),
+(100,300,l),
+(200,300,l),
+(200,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,600,l),
+(100,500,l),
+(200,500,l),
+(200,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,250,l),
+(200,100,l),
+(300,100,l),
+(300,250,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,500,l),
+(200,400,l),
+(300,400,l),
+(300,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,350,l),
+(300,250,l),
+(400,250,l),
+(400,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,200,l),
+(400,100,l),
+(500,100,l),
+(500,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,500,l),
+(400,350,l),
+(500,350,l),
+(500,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,100,l),
+(500,0,l),
+(600,0,l),
+(600,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,300,l),
+(500,200,l),
+(600,200,l),
+(600,300,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,600,l),
+(500,500,l),
+(600,500,l),
+(600,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(600,200,l),
+(600,100,l),
+(700,100,l),
+(700,200,l)
+);
+}
+);
+width = 700;
+}
+);
+note = percent.osf;
+}

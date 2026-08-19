@@ -1,0 +1,29 @@
+{
+glyphname = germandbls;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (375,0);
+},
+{
+name = bottom_;
+pos = (375,0);
+},
+{
+name = top;
+pos = (375,800);
+},
+{
+name = top_;
+pos = (375,800);
+}
+);
+layerId = m01;
+width = 750;
+}
+);
+note = germandbls;
+unicode = 223;
+}

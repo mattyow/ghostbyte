@@ -1,0 +1,200 @@
+{
+glyphname = percent;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (600,100);
+type = Stem;
+},
+{
+place = (500,100);
+type = Stem;
+},
+{
+place = (400,100);
+type = Stem;
+},
+{
+place = (300,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+},
+{
+place = (0,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,100,l),
+(100,0,l),
+(200,0,l),
+(200,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,600,l),
+(0,500,l),
+(100,500,l),
+(100,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,500,l),
+(100,400,l),
+(200,400,l),
+(200,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,700,l),
+(100,600,l),
+(200,600,l),
+(200,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,300,l),
+(200,100,l),
+(300,100,l),
+(300,300,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,600,l),
+(200,500,l),
+(300,500,l),
+(300,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,400,l),
+(300,300,l),
+(400,300,l),
+(400,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,200,l),
+(400,100,l),
+(500,100,l),
+(500,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,600,l),
+(400,400,l),
+(500,400,l),
+(500,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,100,l),
+(500,0,l),
+(600,0,l),
+(600,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,300,l),
+(500,200,l),
+(600,200,l),
+(600,300,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,700,l),
+(500,600,l),
+(600,600,l),
+(600,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(600,200,l),
+(600,100,l),
+(700,100,l),
+(700,200,l)
+);
+}
+);
+width = 700;
+}
+);
+note = percent;
+unicode = 37;
+}

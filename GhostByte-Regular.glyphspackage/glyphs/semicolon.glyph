@@ -1,0 +1,53 @@
+{
+glyphname = semicolon;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (400,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,100);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,200);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,600,l),
+(50,400,l),
+(250,400,l),
+(250,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(50,200,l),
+(50,100,l),
+(150,100,l),
+(150,-100,l),
+(250,-100,l),
+(250,200,l)
+);
+}
+);
+width = 300;
+}
+);
+note = semicolon;
+unicode = 59;
+}

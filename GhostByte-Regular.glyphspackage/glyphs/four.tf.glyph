@@ -1,0 +1,145 @@
+{
+glyphname = four.tf;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (612,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (650,50);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (250,50);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (450,100);
+type = Stem;
+},
+{
+place = (350,200);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(450,200,l),
+(450,0,l),
+(550,0,l),
+(550,100,ls),
+(550,150,o),
+(540,172,o),
+(500,212,c),
+(538,250,l),
+(578,210,o),
+(600,200,o),
+(650,200,c),
+(650,300,l),
+(550,300,l),
+(550,700,l),
+(350,700,l),
+(350,600,l),
+(400,600,o),
+(422,610,o),
+(462,650,c),
+(500,612,l),
+(460,572,o),
+(450,550,o),
+(450,500,cs),
+(450,400,ls),
+(450,350,o),
+(460,328,o),
+(500,288,c),
+(462,250,l),
+(422,290,o),
+(400,300,o),
+(350,300,cs),
+(250,300,ls),
+(200,300,o),
+(178,290,o),
+(138,250,c),
+(100,288,l),
+(140,328,o),
+(150,350,o),
+(150,400,c),
+(50,400,l),
+(50,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,500,l),
+(150,500,l),
+(150,400,l),
+(250,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,500,l),
+(350,500,l),
+(350,600,l),
+(250,600,l)
+);
+}
+);
+width = 700;
+}
+);
+note = four.tf;
+}

@@ -1,0 +1,232 @@
+{
+glyphname = onehalf;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (612,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (600,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-12,112);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-100,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-200,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-12,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (950,100);
+type = Stem;
+},
+{
+place = (800,150);
+type = Stem;
+},
+{
+place = (700,250);
+type = Stem;
+},
+{
+place = (700,100);
+type = Stem;
+},
+{
+place = (600,100);
+type = Stem;
+},
+{
+place = (500,100);
+type = Stem;
+},
+{
+place = (400,100);
+type = Stem;
+},
+{
+place = (300,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,200);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,200,l),
+(250,200,l),
+(250,700,l),
+(50,700,l),
+(50,600,l),
+(100,600,o),
+(124,612,o),
+(162,650,c),
+(200,612,l),
+(160,572,o),
+(150,550,o),
+(150,500,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,0,l),
+(200,-200,l),
+(300,-200,l),
+(300,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,200,l),
+(300,0,l),
+(400,0,l),
+(400,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,400,l),
+(400,200,l),
+(500,200,l),
+(500,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,600,l),
+(500,400,l),
+(600,400,l),
+(600,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(600,800,l),
+(600,600,l),
+(700,600,l),
+(700,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(700,100,l),
+(700,-100,l),
+(1050,-100,l),
+(1050,0,l),
+(900,0,ls),
+(850,0,o),
+(826,-12,o),
+(788,-50,c),
+(750,-12,l),
+(788,26,o),
+(800,50,o),
+(800,100,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(800,100,l),
+(950,100,l),
+(950,200,l),
+(800,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(700,400,l),
+(700,300,l),
+(950,300,l),
+(950,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(950,200,l),
+(1050,200,l),
+(1050,300,l),
+(950,300,l)
+);
+}
+);
+width = 1100;
+}
+);
+note = onehalf;
+unicode = 189;
+}

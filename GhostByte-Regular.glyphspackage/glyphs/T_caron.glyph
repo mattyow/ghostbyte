@@ -1,0 +1,106 @@
+{
+glyphname = Tcaron;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = bottom_;
+pos = (250,0);
+},
+{
+name = top;
+pos = (300,1000);
+},
+{
+name = top_;
+pos = (300,1000);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (900,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (800,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,600,l),
+(250,0,l),
+(350,0,l),
+(350,600,l),
+(575,600,l),
+(575,700,l),
+(25,700,l),
+(25,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,1000,l),
+(150,900,l),
+(250,900,l),
+(250,1000,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,900,l),
+(250,800,l),
+(350,800,l),
+(350,900,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,1000,l),
+(350,900,l),
+(450,900,l),
+(450,1000,l)
+);
+}
+);
+width = 600;
+}
+);
+note = Tcaron;
+unicode = 356;
+}

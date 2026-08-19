@@ -1,0 +1,78 @@
+{
+glyphname = degree;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,100);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,500,l),
+(150,600,l),
+(50,600,l),
+(50,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,500,l),
+(150,400,l),
+(250,400,l),
+(250,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,700,l),
+(150,600,l),
+(250,600,l),
+(250,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,600,l),
+(250,500,l),
+(350,500,l),
+(350,600,l)
+);
+}
+);
+width = 399;
+}
+);
+note = degree;
+unicode = 176;
+}

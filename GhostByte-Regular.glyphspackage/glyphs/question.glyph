@@ -1,0 +1,114 @@
+{
+glyphname = question;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (700,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (350,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (150,200);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,350,l),
+(350,450,l),
+(250,450,l),
+(250,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(50,700,l),
+(50,600,l),
+(150,600,l),
+(150,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,100,l),
+(150,0,l),
+(250,0,l),
+(250,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,350,l),
+(150,200,l),
+(250,200,l),
+(250,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,800,l),
+(150,700,l),
+(350,700,l),
+(350,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,700,l),
+(350,450,l),
+(450,450,l),
+(450,700,l)
+);
+}
+);
+width = 475;
+}
+);
+note = question;
+unicode = 63;
+}

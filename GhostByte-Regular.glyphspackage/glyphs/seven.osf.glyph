@@ -1,0 +1,99 @@
+{
+glyphname = seven.osf;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (250,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-100,200);
+type = Stem;
+},
+{
+place = (425,100);
+type = Stem;
+},
+{
+place = (325,100);
+type = Stem;
+},
+{
+place = (225,100);
+type = Stem;
+},
+{
+place = (125,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(425,250,l),
+(425,400,l),
+(325,400,l),
+(325,250,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(25,600,l),
+(25,500,l),
+(325,500,ls),
+(375,500,o),
+(397,510,o),
+(437,550,c),
+(475,512,l),
+(435,472,o),
+(425,450,o),
+(425,400,c),
+(525,400,l),
+(525,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(125,100,l),
+(125,-100,l),
+(225,-100,l),
+(225,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,250,l),
+(225,100,l),
+(325,100,l),
+(325,250,l)
+);
+}
+);
+width = 550;
+}
+);
+note = seven.osf;
+}

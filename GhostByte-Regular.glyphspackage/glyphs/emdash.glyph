@@ -1,0 +1,33 @@
+{
+glyphname = emdash;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (250,100);
+type = Stem;
+},
+{
+place = (50,700);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,350,l),
+(50,250,l),
+(750,250,l),
+(750,350,l)
+);
+}
+);
+width = 800;
+}
+);
+note = emdash;
+unicode = 8212;
+}

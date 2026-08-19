@@ -1,0 +1,39 @@
+{
+glyphname = uni0307;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (162,600);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (700,125);
+type = Stem;
+},
+{
+place = (100,125);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,825,l),
+(100,700,l),
+(225,700,l),
+(225,825,l)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0307;
+unicode = 775;
+}

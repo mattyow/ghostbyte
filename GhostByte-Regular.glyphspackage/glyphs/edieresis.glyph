@@ -1,0 +1,159 @@
+{
+glyphname = edieresis;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (350,0);
+},
+{
+name = bottom_;
+pos = (350,0);
+},
+{
+name = ogonek;
+pos = (630,10);
+},
+{
+name = ogonek_;
+pos = (630,10);
+},
+{
+name = top;
+pos = (350,800);
+},
+{
+name = top_;
+pos = (350,800);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (700,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (350,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (250,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (525,100);
+type = Stem;
+},
+{
+place = (400,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (75,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,500,l),
+(75,100,l),
+(175,100,l),
+(175,150,ls),
+(175,200,o),
+(165,222,o),
+(125,262,c),
+(163,300,l),
+(125,338,l),
+(165,378,o),
+(175,400,o),
+(175,450,cs),
+(175,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(203,260,o),
+(225,250,o),
+(275,250,cs),
+(525,250,l),
+(525,350,l),
+(275,350,ls),
+(225,350,o),
+(203,340,o),
+(163,300,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,100,l),
+(175,0,l),
+(575,0,l),
+(575,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,600,l),
+(175,500,l),
+(525,500,l),
+(525,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,800,l),
+(200,700,l),
+(300,700,l),
+(300,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,800,l),
+(400,700,l),
+(500,700,l),
+(500,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(525,500,l),
+(525,350,l),
+(625,350,l),
+(625,500,l)
+);
+}
+);
+width = 675;
+}
+);
+note = edieresis;
+unicode = 235;
+}

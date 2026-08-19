@@ -1,0 +1,11 @@
+{
+glyphname = fiveeighths;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+note = fiveeighths;
+unicode = 8541;
+}

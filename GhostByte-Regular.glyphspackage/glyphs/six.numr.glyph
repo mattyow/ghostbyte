@@ -1,0 +1,106 @@
+{
+glyphname = six.numr;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (488,112);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+place = (375,100);
+type = Stem;
+},
+{
+place = (150,275);
+type = Stem;
+},
+{
+place = (150,225);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,600,l),
+(50,300,l),
+(150,300,l),
+(150,400,l),
+(375,400,l),
+(375,500,l),
+(250,500,ls),
+(200,500,o),
+(178,490,o),
+(138,450,c),
+(100,488,l),
+(140,528,o),
+(150,550,o),
+(150,600,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,600,l),
+(425,600,l),
+(425,700,l),
+(150,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,300,l),
+(150,200,l),
+(375,200,l),
+(375,300,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(375,400,l),
+(375,300,l),
+(475,300,l),
+(475,400,l)
+);
+}
+);
+width = 525;
+}
+);
+note = six.numr;
+}

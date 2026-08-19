@@ -1,0 +1,150 @@
+{
+glyphname = scedilla.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (250,-300);
+},
+{
+name = bottom_;
+pos = (250,-300);
+},
+{
+name = top;
+pos = (300,600);
+},
+{
+name = top_;
+pos = (300,600);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (350,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (250,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-200,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-300,100);
+type = Stem;
+},
+{
+place = (450,100);
+type = Stem;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,350,l),
+(150,500,l),
+(50,500,l),
+(50,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,350,l),
+(150,250,l),
+(450,250,l),
+(450,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,100,l),
+(75,0,l),
+(250,0,l),
+(250,-100,l),
+(350,-100,l),
+(350,0,l),
+(450,0,l),
+(450,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,600,l),
+(150,500,l),
+(525,500,l),
+(525,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,-200,l),
+(250,-300,l),
+(350,-300,l),
+(350,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,-100,l),
+(350,-200,l),
+(450,-200,l),
+(450,-100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,250,l),
+(450,100,l),
+(550,100,l),
+(550,250,l)
+);
+}
+);
+width = 600;
+}
+);
+note = scedilla.sc;
+}

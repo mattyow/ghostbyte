@@ -1,0 +1,84 @@
+{
+glyphname = uni2070;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (600,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,300);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (150,200);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,200,l),
+(350,300,l),
+(150,300,l),
+(150,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(50,600,l),
+(50,300,l),
+(150,300,l),
+(150,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,700,l),
+(150,600,l),
+(350,600,l),
+(350,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,600,l),
+(350,300,l),
+(450,300,l),
+(450,600,l)
+);
+}
+);
+width = 500;
+}
+);
+note = uni2070;
+unicode = 8304;
+}

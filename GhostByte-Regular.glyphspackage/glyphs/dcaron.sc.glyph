@@ -1,0 +1,140 @@
+{
+glyphname = dcaron.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (338,0);
+},
+{
+name = bottom_;
+pos = (338,0);
+},
+{
+name = top;
+pos = (338,900);
+},
+{
+name = top_;
+pos = (338,900);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (800,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (700,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (550,50);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (500,100);
+type = Stem;
+},
+{
+place = (388,100);
+type = Stem;
+},
+{
+place = (288,100);
+type = Stem;
+},
+{
+place = (188,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,600,l),
+(100,0,l),
+(500,0,l),
+(500,100,l),
+(300,100,ls),
+(250,100,o),
+(228,90,o),
+(188,50,c),
+(150,88,l),
+(190,128,o),
+(200,150,o),
+(200,200,cs),
+(200,400,ls),
+(200,450,o),
+(190,472,o),
+(150,512,c),
+(188,550,l),
+(228,510,o),
+(250,500,o),
+(300,500,cs),
+(500,500,l),
+(500,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(188,900,l),
+(188,800,l),
+(288,800,l),
+(288,900,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(288,800,l),
+(288,700,l),
+(388,700,l),
+(388,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(388,900,l),
+(388,800,l),
+(488,800,l),
+(488,900,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,500,l),
+(500,100,l),
+(600,100,l),
+(600,500,l)
+);
+}
+);
+width = 675;
+}
+);
+note = dcaron.sc;
+}

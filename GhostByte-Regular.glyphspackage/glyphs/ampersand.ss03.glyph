@@ -1,0 +1,198 @@
+{
+glyphname = ampersand.ss03;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (650,100);
+type = Stem;
+},
+{
+place = (550,100);
+type = Stem;
+},
+{
+place = (450,100);
+type = Stem;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (250,200);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (150,200);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,100,l),
+(150,300,l),
+(50,300,l),
+(50,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,100,l),
+(150,0,l),
+(350,0,l),
+(350,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,300,l),
+(450,300,l),
+(450,400,l),
+(350,400,l),
+(350,500,l),
+(250,500,l),
+(250,450,o),
+(260,428,o),
+(300,388,c),
+(262,350,l),
+(222,390,o),
+(200,400,o),
+(150,400,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,600,l),
+(150,500,l),
+(250,500,l),
+(250,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,700,l),
+(250,600,l),
+(450,600,l),
+(450,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,200,l),
+(350,100,l),
+(450,100,l),
+(450,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,300,l),
+(450,200,l),
+(550,200,l),
+(550,300,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,600,l),
+(450,400,l),
+(550,400,l),
+(550,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(550,200,l),
+(550,100,l),
+(650,100,l),
+(650,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(650,100,l),
+(650,0,l),
+(750,0,l),
+(750,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(650,300,l),
+(650,200,l),
+(750,200,l),
+(750,300,l)
+);
+}
+);
+width = 800;
+}
+);
+note = ampersand.ss03;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = uni030C.alt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (600,200);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,800,l),
+(100,600,l),
+(200,600,l),
+(200,800,l)
+);
+}
+);
+width = 0;
+}
+);
+note = uni030C.alt;
+}

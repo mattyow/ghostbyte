@@ -1,0 +1,11 @@
+{
+glyphname = Hbar;
+layers = (
+{
+layerId = m01;
+width = 810;
+}
+);
+note = Hbar;
+unicode = 294;
+}

@@ -1,0 +1,29 @@
+{
+glyphname = uni1E9E;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (345,0);
+},
+{
+name = bottom_;
+pos = (345,0);
+},
+{
+name = top;
+pos = (345,700);
+},
+{
+name = top_;
+pos = (345,700);
+}
+);
+layerId = m01;
+width = 690;
+}
+);
+note = uni1E9E;
+unicode = 7838;
+}

@@ -1,0 +1,134 @@
+{
+glyphname = three.tf.ss02;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (612,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,112);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (450,100);
+type = Stem;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (250,200);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,700,l),
+(50,600,l),
+(250,600,ls),
+(300,600,o),
+(322,610,o),
+(362,650,c),
+(400,612,l),
+(360,572,o),
+(350,550,o),
+(350,500,c),
+(450,500,l),
+(450,600,l),
+(550,600,l),
+(550,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(50,200,l),
+(50,100,l),
+(150,100,l),
+(150,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,100,l),
+(150,0,l),
+(450,0,l),
+(450,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,400,l),
+(150,300,l),
+(450,300,l),
+(450,400,l),
+(400,400,o),
+(378,390,o),
+(338,350,c),
+(300,388,l),
+(340,428,o),
+(350,450,o),
+(350,500,c),
+(250,500,l),
+(250,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,300,l),
+(450,100,l),
+(550,100,l),
+(550,300,l)
+);
+}
+);
+width = 625;
+}
+);
+note = three.tf.ss02;
+}

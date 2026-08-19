@@ -1,0 +1,88 @@
+{
+glyphname = nine.sc;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (500,100);
+type = Stem;
+},
+{
+place = (75,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,100,l),
+(125,100,l),
+(125,0,l),
+(500,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(600,100,l),
+(600,500,l),
+(500,500,l),
+(500,300,l),
+(175,300,l),
+(175,200,l),
+(400,200,ls),
+(450,200,o),
+(472,210,o),
+(512,250,c),
+(550,212,l),
+(510,172,o),
+(500,150,o),
+(500,100,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,500,l),
+(75,300,l),
+(175,300,l),
+(175,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,600,l),
+(175,500,l),
+(500,500,l),
+(500,600,l)
+);
+}
+);
+width = 675;
+}
+);
+note = nine.sc;
+}

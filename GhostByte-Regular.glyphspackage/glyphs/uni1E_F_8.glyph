@@ -1,0 +1,206 @@
+{
+glyphname = uni1EF8;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (350,0);
+},
+{
+name = bottom_;
+pos = (350,0);
+},
+{
+name = top;
+pos = (350,1000);
+},
+{
+name = top_;
+pos = (350,1000);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (900,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (800,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (550,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (275,125);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,275);
+type = Stem;
+},
+{
+place = (600,100);
+type = Stem;
+},
+{
+place = (500,100);
+type = Stem;
+},
+{
+place = (450,100);
+type = Stem;
+},
+{
+place = (400,100);
+type = Stem;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (300,100);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (150,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+},
+{
+place = (0,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,275,l),
+(500,400,l),
+(400,400,l),
+(400,275,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,700,l),
+(0,550,l),
+(100,550,l),
+(100,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,550,l),
+(100,400,l),
+(200,400,l),
+(200,550,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,900,l),
+(150,800,l),
+(250,800,l),
+(250,900,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,400,l),
+(200,275,l),
+(300,275,l),
+(300,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,1000,l),
+(250,900,l),
+(350,900,l),
+(350,1000,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,275,l),
+(300,0,l),
+(400,0,l),
+(400,275,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,900,l),
+(350,800,l),
+(450,800,l),
+(450,900,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,1000,l),
+(450,900,l),
+(550,900,l),
+(550,1000,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,550,l),
+(500,400,l),
+(600,400,l),
+(600,550,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(600,700,l),
+(600,550,l),
+(700,550,l),
+(700,700,l)
+);
+}
+);
+width = 700;
+}
+);
+note = uni1EF8;
+unicode = 7928;
+}

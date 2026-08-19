@@ -1,0 +1,177 @@
+{
+glyphname = Scedilla;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (250,-300);
+},
+{
+name = bottom_;
+pos = (250,-300);
+},
+{
+name = top;
+pos = (300,700);
+},
+{
+name = top_;
+pos = (300,700);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (50,50);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-100,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-200,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-300,100);
+type = Stem;
+},
+{
+place = (450,100);
+type = Stem;
+},
+{
+place = (350,100);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,400,l),
+(150,600,l),
+(50,600,l),
+(50,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,400,l),
+(150,300,l),
+(450,300,l),
+(450,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,100,l),
+(75,0,l),
+(150,0,ls),
+(200,0,o),
+(224,12,o),
+(262,50,c),
+(300,12,l),
+(338,50,l),
+(376,12,o),
+(400,0,o),
+(450,0,c),
+(450,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,700,l),
+(150,600,l),
+(525,600,l),
+(525,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,-200,l),
+(250,-300,l),
+(350,-300,l),
+(350,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,-100,l),
+(350,-50,o),
+(338,-26,o),
+(300,12,c),
+(262,-26,o),
+(250,-50,o),
+(250,-100,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,-100,l),
+(350,-200,l),
+(450,-200,l),
+(450,-100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,300,l),
+(450,100,l),
+(550,100,l),
+(550,300,l)
+);
+}
+);
+width = 600;
+}
+);
+note = Scedilla;
+unicode = 350;
+}

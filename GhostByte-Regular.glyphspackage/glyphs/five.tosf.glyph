@@ -1,0 +1,100 @@
+{
+glyphname = five.tosf;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (550,50);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (250,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-100,100);
+type = Stem;
+},
+{
+place = (475,100);
+type = Stem;
+},
+{
+place = (75,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,600,l),
+(75,250,l),
+(475,250,l),
+(475,350,l),
+(275,350,ls),
+(225,350,o),
+(203,340,o),
+(163,300,c),
+(125,338,l),
+(162,375,o),
+(175,398,o),
+(175,425,cs),
+(175,452,o),
+(162,475,o),
+(125,512,c),
+(163,550,l),
+(203,510,o),
+(225,500,o),
+(275,500,cs),
+(550,500,l),
+(550,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,100,l),
+(75,0,l),
+(175,0,l),
+(175,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,0,l),
+(175,-100,l),
+(475,-100,l),
+(475,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(475,250,l),
+(475,0,l),
+(575,0,l),
+(575,250,l)
+);
+}
+);
+width = 650;
+}
+);
+note = five.tosf;
+}

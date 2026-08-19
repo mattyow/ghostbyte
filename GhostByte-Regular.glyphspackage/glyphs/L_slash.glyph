@@ -1,0 +1,11 @@
+{
+glyphname = Lslash;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+note = Lslash;
+unicode = 321;
+}

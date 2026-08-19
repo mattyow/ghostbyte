@@ -1,0 +1,132 @@
+{
+glyphname = Odieresis;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (350,0);
+},
+{
+name = bottom_;
+pos = (350,0);
+},
+{
+name = ogonek;
+pos = (630,10);
+},
+{
+name = ogonek_;
+pos = (630,10);
+},
+{
+name = top;
+pos = (350,900);
+},
+{
+name = top_;
+pos = (350,900);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (600,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (800,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (525,100);
+type = Stem;
+},
+{
+place = (400,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (75,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(525,0,l),
+(525,100,l),
+(175,100,l),
+(175,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,600,l),
+(75,100,l),
+(175,100,l),
+(175,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,700,l),
+(175,600,l),
+(525,600,l),
+(525,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,900,l),
+(200,800,l),
+(300,800,l),
+(300,900,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,900,l),
+(400,800,l),
+(500,800,l),
+(500,900,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(525,600,l),
+(525,100,l),
+(625,100,l),
+(625,600,l)
+);
+}
+);
+width = 700;
+}
+);
+note = Odieresis;
+unicode = 214;
+}

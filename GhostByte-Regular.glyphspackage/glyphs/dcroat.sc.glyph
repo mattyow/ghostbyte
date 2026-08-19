@@ -1,0 +1,148 @@
+{
+glyphname = dcroat.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = bottom_;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,800);
+},
+{
+name = top_;
+pos = (300,800);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (612,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (700,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (650,50);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,300);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (450,100);
+type = Stem;
+},
+{
+place = (150,150);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(450,100,l),
+(550,100,l),
+(550,500,ls),
+(550,550,o),
+(540,572,o),
+(500,612,c),
+(460,572,o),
+(450,550,o),
+(450,500,c),
+(150,500,l),
+(150,400,l),
+(350,400,ls),
+(400,400,o),
+(422,410,o),
+(462,450,c),
+(500,412,l),
+(460,372,o),
+(450,350,o),
+(450,300,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(50,400,l),
+(50,100,l),
+(150,100,l),
+(150,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,100,l),
+(150,0,l),
+(450,0,l),
+(450,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,800,l),
+(150,700,l),
+(300,700,l),
+(300,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,700,l),
+(300,600,l),
+(350,600,ls),
+(400,600,o),
+(422,610,o),
+(462,650,c),
+(500,612,l),
+(538,650,l),
+(578,610,o),
+(600,600,o),
+(650,600,c),
+(650,700,l)
+);
+}
+);
+width = 650;
+}
+);
+note = dcroat.sc;
+}

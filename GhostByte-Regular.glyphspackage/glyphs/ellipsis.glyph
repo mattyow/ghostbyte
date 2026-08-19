@@ -1,0 +1,59 @@
+{
+glyphname = ellipsis;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0,200);
+type = Stem;
+},
+{
+place = (650,200);
+type = Stem;
+},
+{
+place = (350,200);
+type = Stem;
+},
+{
+place = (50,200);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,200,l),
+(50,0,l),
+(250,0,l),
+(250,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,200,l),
+(350,0,l),
+(550,0,l),
+(550,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(650,200,l),
+(650,0,l),
+(850,0,l),
+(850,200,l)
+);
+}
+);
+width = 900;
+}
+);
+note = ellipsis;
+unicode = 8230;
+}

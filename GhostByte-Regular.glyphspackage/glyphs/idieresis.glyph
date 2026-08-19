@@ -1,0 +1,97 @@
+{
+glyphname = idieresis;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (150,0);
+},
+{
+name = bottom_;
+pos = (150,0);
+},
+{
+name = ogonek;
+pos = (200,0);
+},
+{
+name = ogonek_;
+pos = (200,0);
+},
+{
+name = top;
+pos = (150,800);
+},
+{
+name = top_;
+pos = (150,800);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (600,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (700,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+},
+{
+place = (0,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,600,l),
+(100,0,l),
+(200,0,l),
+(200,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,800,l),
+(0,700,l),
+(100,700,l),
+(100,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,800,l),
+(200,700,l),
+(300,700,l),
+(300,800,l)
+);
+}
+);
+width = 300;
+}
+);
+note = idieresis;
+unicode = 239;
+}

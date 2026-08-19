@@ -1,0 +1,110 @@
+{
+glyphname = eight.sc;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (350,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (250,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (475,100);
+type = Stem;
+},
+{
+place = (75,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(175,350,l),
+(175,500,l),
+(75,500,l),
+(75,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,350,l),
+(175,250,l),
+(475,250,l),
+(475,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,250,l),
+(75,100,l),
+(175,100,l),
+(175,250,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,100,l),
+(175,0,l),
+(475,0,l),
+(475,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,600,l),
+(175,500,l),
+(475,500,l),
+(475,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(475,250,l),
+(475,100,l),
+(575,100,l),
+(575,250,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(475,500,l),
+(475,350,l),
+(575,350,l),
+(575,500,l)
+);
+}
+);
+width = 650;
+}
+);
+note = eight.sc;
+}

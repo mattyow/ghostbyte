@@ -1,0 +1,61 @@
+{
+glyphname = divide;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (450,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (250,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (50,100);
+type = Stem;
+},
+{
+place = (250,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,350,l),
+(50,250,l),
+(550,250,l),
+(550,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,150,l),
+(250,50,l),
+(350,50,l),
+(350,150,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(250,550,l),
+(250,450,l),
+(350,450,l),
+(350,550,l)
+);
+}
+);
+width = 600;
+}
+);
+note = divide;
+unicode = 247;
+}

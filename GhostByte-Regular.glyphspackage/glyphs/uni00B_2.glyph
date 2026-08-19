@@ -1,0 +1,100 @@
+{
+glyphname = uni00B2;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (600,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (500,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (400,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,100);
+type = Stem;
+},
+{
+place = (300,100);
+type = Stem;
+},
+{
+place = (150,150);
+type = Stem;
+},
+{
+place = (50,250);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,400,l),
+(50,200,l),
+(400,200,l),
+(400,300,l),
+(250,300,ls),
+(200,300,o),
+(178,290,o),
+(138,250,c),
+(100,288,l),
+(140,328,o),
+(150,350,o),
+(150,400,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,400,l),
+(300,400,l),
+(300,500,l),
+(150,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(50,700,l),
+(50,600,l),
+(300,600,l),
+(300,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,500,l),
+(400,500,l),
+(400,600,l),
+(300,600,l)
+);
+}
+);
+width = 450;
+}
+);
+note = uni00B2;
+unicode = 178;
+}

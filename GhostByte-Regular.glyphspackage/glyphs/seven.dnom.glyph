@@ -1,0 +1,81 @@
+{
+glyphname = seven.dnom;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (200,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (50,150);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-100,150);
+type = Stem;
+},
+{
+place = (275,100);
+type = Stem;
+},
+{
+place = (175,100);
+type = Stem;
+},
+{
+place = (75,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(275,50,l),
+(275,200,l),
+(175,200,l),
+(175,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(25,400,l),
+(25,300,l),
+(175,300,ls),
+(225,300,o),
+(247,310,o),
+(287,350,c),
+(325,312,l),
+(285,272,o),
+(275,250,o),
+(275,200,c),
+(375,200,l),
+(375,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,50,l),
+(75,-100,l),
+(175,-100,l),
+(175,50,l)
+);
+}
+);
+width = 400;
+}
+);
+note = seven.dnom;
+}

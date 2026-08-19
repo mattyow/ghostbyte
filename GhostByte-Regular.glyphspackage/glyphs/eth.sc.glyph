@@ -1,0 +1,10 @@
+{
+glyphname = eth.sc;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+note = eth.sc;
+}

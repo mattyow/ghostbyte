@@ -1,0 +1,73 @@
+{
+glyphname = uni0312;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (200,600);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (900,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (700,200);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (700,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (100,200);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,900,l),
+(100,700,l),
+(300,700,l),
+(300,800,l),
+(250,800,o),
+(228,790,o),
+(188,750,c),
+(150,788,l),
+(190,828,o),
+(200,850,o),
+(200,900,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,900,l),
+(300,900,l),
+(300,1000,l),
+(200,1000,l)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0312;
+unicode = 786;
+}

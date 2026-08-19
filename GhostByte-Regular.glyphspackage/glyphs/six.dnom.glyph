@@ -1,0 +1,96 @@
+{
+glyphname = six.dnom;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (300,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-100,100);
+type = Stem;
+},
+{
+place = (375,100);
+type = Stem;
+},
+{
+place = (150,275);
+type = Stem;
+},
+{
+place = (150,225);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,300,l),
+(50,0,l),
+(150,0,l),
+(150,100,l),
+(375,100,l),
+(375,200,l),
+(250,200,ls),
+(200,200,o),
+(178,190,o),
+(138,150,c),
+(100,188,l),
+(140,228,o),
+(150,250,o),
+(150,300,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,300,l),
+(425,300,l),
+(425,400,l),
+(150,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,0,l),
+(150,-100,l),
+(375,-100,l),
+(375,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(375,100,l),
+(375,0,l),
+(475,0,l),
+(475,100,l)
+);
+}
+);
+width = 525;
+}
+);
+note = six.dnom;
+}

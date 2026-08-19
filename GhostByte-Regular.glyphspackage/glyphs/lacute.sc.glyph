@@ -1,0 +1,97 @@
+{
+glyphname = lacute.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = bottom_;
+pos = (288,0);
+},
+{
+name = top;
+pos = (150,900);
+},
+{
+name = top_;
+pos = (150,900);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (600,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (800,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (700,100);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,100);
+type = Stem;
+},
+{
+place = (200,100);
+type = Stem;
+},
+{
+place = (100,100);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,600,l),
+(100,0,l),
+(500,0,l),
+(500,100,l),
+(300,100,ls),
+(250,100,o),
+(228,90,o),
+(188,50,c),
+(150,88,l),
+(190,128,o),
+(200,150,o),
+(200,200,cs),
+(200,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,800,l),
+(100,700,l),
+(200,700,l),
+(200,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,900,l),
+(200,800,l),
+(300,800,l),
+(300,900,l)
+);
+}
+);
+width = 525;
+}
+);
+note = lacute.sc;
+}
