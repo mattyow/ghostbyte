@@ -25,6 +25,7 @@
   --cyan:#58DCE4;
   --magenta:#E0559F;
   --rule:rgba(88,220,228,.16);
+  --rule-solid:#142A2E;
   --gap:clamp(48px,7vw,104px);
   --pad:clamp(20px,5vw,72px);
 }
@@ -263,11 +264,10 @@ input[type=range]::-moz-range-thumb{width:11px;height:14px;background:var(--cyan
 .cgrid{
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(56px,1fr));
-  border-top:1px solid var(--rule);border-left:1px solid var(--rule);
 }
 .cell{
   background:transparent;aspect-ratio:1;
-  border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);
+  border:1px solid var(--rule-solid);margin:0 -1px -1px 0;
   display:flex;align-items:center;justify-content:center;
   font-size:25px;cursor:pointer;color:var(--phosphor);
   transition:background .12s,color .12s;
